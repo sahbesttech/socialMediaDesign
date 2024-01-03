@@ -11,7 +11,7 @@ import React from "react";
 const Sidebar = () => {
   const items = [1, 2, 3, 4, 5, 6, 7, 8, 9,2,2,2,2,3,3,3];
   return (
-    <Box flex="1" sx={{display:{xs b:'none',md:'grid'}}}>
+    <Box flex="1" sx={{display:{xs:'none',md:'grid'}}}>
       <Box sx={{position:"fixed"}}>
 
       <List>
